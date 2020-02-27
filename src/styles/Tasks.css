@@ -1,0 +1,33 @@
+.tasks div {
+  display: grid;
+  grid-template-columns: 20px auto 20px;
+  padding: 2px 40px;
+  align-items: center;
+  justify-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.tasks div input {
+  cursor: pointer;
+}
+
+.tasks div p {
+  justify-self: start;
+  margin: 8px 20px;
+  font-size: 24px;
+}
+
+.tasks div button {
+  cursor: pointer;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.tasks div button:hover {
+  background-color: gray;
+}

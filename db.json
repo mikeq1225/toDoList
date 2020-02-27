@@ -1,8 +1,39 @@
 {
   "tasks": [
     {
-      "task": "wash",
-      "id": 1
+      "task": "laundry",
+      "status": "active",
+      "id": 2
+    },
+    {
+      "task": "buy groceries",
+      "status": "active",
+      "id": 3
+    },
+    {
+      "task": "wash car",
+      "status": "active",
+      "id": 4
+    },
+    {
+      "task": "bath dog",
+      "status": "active",
+      "id": 5
+    },
+    {
+      "task": "study React",
+      "status": "active",
+      "id": 6
+    },
+    {
+      "task": "study Redux",
+      "status": "active",
+      "id": 7
+    },
+    {
+      "task": "turn in homework",
+      "status": "completed",
+      "id": 8
     }
   ]
 }
